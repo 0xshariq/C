@@ -3,7 +3,7 @@ int main()
 {
   char c[];
   printf("Enter a string:");
-  fgets(c);
+  gets(c);
   printf("String is : %c",c);
   return 0;
 }
